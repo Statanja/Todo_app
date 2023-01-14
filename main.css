@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Comforter+Brush&family=Fasthand&family=Libre+Baskerville&family=Noto+Serif+Khojki:wght@700&family=Playfair+Display+SC&family=Poppins:ital,wght@0,200;1,100&family=Public+Sans:wght@300&family=Raleway:wght@100&family=Roboto&family=Satisfy&family=Shadows+Into+Light&family=Source+Code+Pro:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+
+    color: mediumpurple;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+form{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+}
+.input{
+    background-color:whitesmoke;
+    width: 100%;
+    border: none;
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.todos{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    font-weight: bold;
+}
+ul>li{
+    border-top: 1px solid gray;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.todos li.complete{
+    text-decoration:line-through;
+}
+small{
+    margin-top: 8px;
+}
